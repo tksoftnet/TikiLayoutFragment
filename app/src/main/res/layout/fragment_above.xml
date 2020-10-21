@@ -25,9 +25,9 @@
         android:text="Mua sau"
         android:textColor="#1616E8"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBtnInc"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageBtnInc"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageBtnDec"
         android:layout_width="16dp"
         android:layout_height="22dp"
         android:layout_marginTop="8dp"
@@ -106,25 +106,25 @@
         app:srcCompat="@drawable/btnminus" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageBtnInc"
         android:layout_width="16dp"
         android:layout_height="22dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintBottom_toBottomOf="@+id/imageBtnDec"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintTop_toTopOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageBtnDec"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/btnadd" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/tvQuantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageBtnInc"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        app:layout_constraintStart_toEndOf="@+id/imageBtnDec"
+        app:layout_constraintTop_toTopOf="@+id/imageBtnInc" />
 
     <EditText
         android:id="@+id/edtMagiamgia"
